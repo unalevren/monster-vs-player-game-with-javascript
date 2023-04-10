@@ -143,6 +143,7 @@ const printLogHandler = () => {
       console.log(`${key} => ${logEntry[key]}`);
     }
   }
+  alert("Please go to Inspect > Console to check the log!");
 };
 
 attackBtn.addEventListener("click", attackHandler);
